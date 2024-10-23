@@ -1,0 +1,102 @@
+/* UserTable.css */
+
+.user-table-container {
+  width: 100%; /* Increased width for better spacing */
+  max-width: 1200px; /* Max width for larger screens */
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 20px; /* Padding around the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.title {
+  font-size: 28px; /* Increased font size for titles */
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.pokemon-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  border-radius: 10px; /* Rounded corners for tables */
+  overflow: hidden; /* Prevents border radius from being clipped */
+}
+
+.pokemon-table th,
+.pokemon-table td {
+  padding: 15px; /* Increased padding for better spacing */
+  border: 1px solid #ddd;
+}
+
+.pokemon-table th {
+  background-color: #4CAF50; /* Green background for headers */
+  color: white; /* White text for contrast */
+}
+
+.pokemon-table td {
+  background-color: #fff; /* White background for table cells */
+}
+
+.pokemon-table tr:hover {
+  background-color: #e8f5e9; /* Light green on row hover */
+}
+
+.adopt-btn,
+.feed-btn {
+  padding: 10px 15px; /* Adjusted padding */
+  font-size: 16px; /* Increased font size */
+  border: none;
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer;
+  color: #fff;
+  background-color: #28a745; /* Bootstrap green */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transform for effect */
+}
+
+.adopt-btn:hover,
+.feed-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.health-bar {
+  position: relative;
+  width: 100px;
+  height: 15px; /* Increased height for better visibility */
+  background-color: #ddd;
+  border-radius: 10px; /* Rounded edges */
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.health-fill {
+  height: 100%;
+  border-radius: 10px; /* Rounded fill */
+}
+
+.pokemon-table td span {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Logout Button */
+.logout-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dc3545; /* Bootstrap red for logout */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px; /* Space above logout button */
+}
+
+.logout-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}

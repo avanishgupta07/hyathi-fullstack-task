@@ -63,4 +63,3 @@ While we've provided a 5-day breakdown, feel free to complete the project early 
 - After the task is completed please add iamuddeshya in your repo as a collaborator and email ua@hyathi.com to acknowledge you completed the task attaching the repo link in the email.
 
 Good luck!
-@iamuddeshya
